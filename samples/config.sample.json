@@ -1,0 +1,106 @@
+{
+  "projectFolder": "",
+  "srcFolder": "",
+  "project": {
+    "name": "",
+    "assets": [],
+    "moduleName": "",
+    "appComponentSelector": "",
+    "karmaConfig": "",
+    "migrationReadme": "",
+    "tagDirectives": {
+      "files": [],
+      "generatedFilesFolder": "",
+      "generateUndeclaredWarning": true,
+      "updateRemovedInjectedBindings": true,
+      "output": true,
+      "routerConfig": "",
+      "generatedPrefix": "",
+      "upgrade": true
+    },
+    "attributeDirectives": {
+      "files": [],
+      "generatedFilesFolder": "",
+      "generateUndeclaredWarning": true,
+      "updateRemovedInjectedBindings": true,
+      "output": true,
+      "generatedPrefix": ""
+    },
+    "components": {
+      "generatedFilesFolder": "",
+      "files": [],
+      "output": true,
+      "downgrade": true,
+      "generatedPrefix": "",
+      "insertInjections": true
+    },
+    "services": {
+      "generatedFilesFolder": "",
+      "files": [],
+      "output": true,
+      "generatedPrefix": "",
+      "insertInjections": true,
+      "downgrade": true
+    },
+    "filters": {
+      "generatedFilesFolder": "",
+      "files": [],
+      "output": true,
+      "generatedPrefix": ""
+    },
+    "controllers": {
+      "generatedFilesFolder": "",
+      "files": [],
+      "output": true,
+      "generatedPrefix": ""
+    },
+    "constants": {
+      "generatedFile": "",
+      "files": [],
+      "output": true
+    },
+    "routing": {
+      "generate": true,
+      "routes": []
+    },
+    "i18n": {
+      "generate": true,
+      "defaultLanguage": "",
+      "files": [],
+      "keywordsToRemove": []
+    },
+    "noAngularJS": {
+      "keywordsToRemove": [
+        "directive",
+        "controller",
+        "angular"
+      ],
+      "toUpdate": {
+        "assets": true,
+        "scripts": true,
+        "styles": true
+      },
+      "removeUpgradeModule": true
+    },
+    "lint": {
+      "files": [],
+      "output": true,
+      "fix": {
+        "enabled": true,
+        "auto": {
+          "linter": true,
+          "fixer": false
+        }
+      },
+      "logFile": ""
+    },
+    "tests": {
+      "specsFolders": [],
+      "testFilesToInclude": [],
+      "updateReportFolders": true,
+      "updatePolyfills": true
+    }
+  },
+  "npmVerbose": false,
+  "noInstall": false
+}

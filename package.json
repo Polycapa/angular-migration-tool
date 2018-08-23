@@ -1,0 +1,44 @@
+{
+  "name": "migration-tool",
+  "version": "1.10.0",
+  "description": "A tool to init AngularJS to Angular migration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run build",
+    "prestart": "npm run build",
+    "start": "node index.js -A",
+    "help": "node index.js -h",
+    "build": "./node_modules/.bin/tsc",
+    "watch": "./node_modules/.bin/tsc -w"
+  },
+  "author": "Mathieu Witcz <Mathieu.Witcz@eaton.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.1",
+    "commander": "^2.15.1",
+    "fs-extra": "^5.0.0",
+    "fs-extra-promise": "^1.0.1",
+    "glob": "^7.1.2",
+    "glob-promise": "^3.4.0",
+    "inquirer": "^5.2.0",
+    "js-beautify": "^1.7.5",
+    "typescript": "^2.9.1",
+    "@types/colors": "^1.2.1",
+    "@types/commander": "^2.12.2",
+    "@types/fs-extra": "^5.0.2",
+    "@types/fs-extra-promise": "^1.0.4",
+    "@types/inquirer": "^0.0.41",
+    "@types/js-beautify": "^0.0.31",
+    "@types/node": "^9.6.5",
+    "tslint": "^5.10.0",
+    "tslint-angular": "^1.1.2",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-microsoft-contrib": "^5.0.3"
+  },
+  "devDependencies": {},
+  "preferGlobal": true,
+  "bin": {
+    "migration-tool": "./bin/migration-tool"
+  }
+}
